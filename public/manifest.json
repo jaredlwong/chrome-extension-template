@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "Your description",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "app.html#/popup"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  }
+}
